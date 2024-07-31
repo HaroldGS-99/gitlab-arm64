@@ -1,0 +1,11 @@
+version: '3'
+services:
+  gitlab-ee:
+    image: gitlab-ee:16.7.3-ee.0
+    ports:
+      - "8081:80"
+    volumes:
+      - gitlab-ee-data:/var/opt/gitlab
+
+volumes:
+  gitlab-ee-data:
