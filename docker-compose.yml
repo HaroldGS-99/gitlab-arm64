@@ -1,7 +1,7 @@
 version: '3'
 services:
   gitlab-ee:
-    image: gitlab-ee:16.2.10-ee.0
+    image: zengxs/gitlab:latest
     ports:
       - "8081:80"
     volumes:
