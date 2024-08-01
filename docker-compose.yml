@@ -1,7 +1,7 @@
 version: '3'
 services:
   gitlab-ee:
-    image: gitlab/gitlab-ce-16.1.7-ce.0
+    image: gitlab/gitlab-ee:latest
     ports:
       - "8081:80"
     volumes:
